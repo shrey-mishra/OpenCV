@@ -25,9 +25,9 @@ Installation
 
 
 2. Create and activate a virtual environment (optional but recommended):
-   ````python
+   ```python
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate````
+source venv/bin/activate  # On Windows use `venv\Scripts\activate```
 
 3. Install the required packages:
    pip install opencv-python mediapipe
@@ -35,8 +35,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate````
 USAGE 
 
 1. Run the script:
-   ```python
-python HandTrackingModule.py```
+   ```python HandTrackingModule.py```
 
 ''A window will open displaying the video feed from your webcam with detected hand landmarks and FPS.''
 
