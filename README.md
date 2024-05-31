@@ -19,12 +19,14 @@ Installation
 1. Clone the repository:
    bash:
    
-   git clone https://github.com/yourusername/hand-tracking-project.git
-   cd hand-tracking-project
+   git clone
+```python https://github.com/shrey-mishra/hand-tracking-project.git
+   cd hand-tracking-project```
 
 2. Create and activate a virtual environment (optional but recommended):
-   python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ````python
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate` ```
 
 3. Install the required packages:
    pip install opencv-python mediapipe
@@ -32,7 +34,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 USAGE 
 
 1. Run the script:
-   python HandTrackingModule.py
+   ```python
+python HandTrackingModule.py```
 
 ''A window will open displaying the video feed from your webcam with detected hand landmarks and FPS.''
 
