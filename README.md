@@ -23,10 +23,11 @@ Installation
 ```python https://github.com/shrey-mishra/hand-tracking-project.git
    cd hand-tracking-project```
 
+
 2. Create and activate a virtual environment (optional but recommended):
    ````python
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate` ```
+source venv/bin/activate  # On Windows use `venv\Scripts\activate````
 
 3. Install the required packages:
    pip install opencv-python mediapipe
